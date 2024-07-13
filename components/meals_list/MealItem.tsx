@@ -1,7 +1,7 @@
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
-import MealDetails from './MealDetails';
+import MealDetails from '../MealDetails';
 
 interface MealItemProps {
   title: string;
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     margin: 16,
     borderRadius: 8,
     overflow: 'hidden',
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     elevation: 4,
     shadowColor: 'black',
     shadowOpacity: 0.25,
